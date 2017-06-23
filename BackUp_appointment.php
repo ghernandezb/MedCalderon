@@ -36,13 +36,13 @@ if(
 	!isset($_POST['patient-email']) ||
 	!isset($_POST['patient-date']) ||
 	!isset($_POST['patient-time']) ||
-	!isset($_POST['patient_phone']) ||
+	!isset($_POST['patient-department']) ||
 	!isset($_POST['patient-message']) ||
 	empty($_POST['patient-name']) ||
 	empty($_POST['patient-email']) ||
 	empty($_POST['patient-date']) ||
 	empty($_POST['patient-time']) ||
-	empty($_POST['patient_phone']) ||
+	empty($_POST['patient-department']) ||
 	empty($_POST['patient-message'])
 ) {
 
@@ -80,11 +80,11 @@ if(
 			}
 		}
 
-		if( !isset( $_POST['patient_phone'] ) || empty( $_POST['patient_phone'] ) ) {
+		if( !isset( $_POST['patient-department'] ) || empty( $_POST['patient-department'] ) ) {
 			if( $fields == "" ) {
-				$fields .= "phone";
+				$fields .= "Department";
 			} else {
-				$fields .= ", phone";
+				$fields .= ", Department";
 			}
 		}
 
@@ -106,12 +106,12 @@ if(
 	// Validate e-mail
 	if (!filter_var($_POST['patient-email'], FILTER_VALIDATE_EMAIL) === false) {
 
-		$msg = "Nombre: ".$_POST['patient-name']."\r\n";
+		$msg = "Name: ".$_POST['patient-name']."\r\n";
 		$msg .= "Email: ".$_POST['patient-email']."\r\n";
-		$msg .= "Fecha: ".$_POST['patient-date']."\r\n";
-		$msg .= "Hora: ".$_POST['patient-time']."\r\n";
-		$msg .= "Telefono: ".$_POST['patient_phone']."\r\n";
-		$msg .= "Mensaje: ".$_POST['patient-message']."\r\n";
+		$msg .= "Day: ".$_POST['patient-date']."\r\n";
+		$msg .= "Time: ".$_POST['patient-time']."\r\n";
+		$msg .= "Department: ".$_POST['patient-department']."\r\n";
+		$msg .= "Message: ".$_POST['patient-message']."\r\n";
 
 
 		$success = @mail($mailTo, $_POST['patient-email'], $msg, 'From: ' . $_POST['patient-name'] . '<' . $_POST['patient-email'] . '>');

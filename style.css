@@ -1,24 +1,15 @@
-/*----------
-	Theme Name: Doctor
-	Start Date : 
-	End Date : 
-	Last change: 
-	Version: 1.0
-	Assigned to:
-	Primary use:
-----------*/
-	/* [Layout] */
+/* [Layout] */
 
 /*----------
 
 	## Global
-	
+
 		- Padding/Margin
 		- Section Padding
-		- Fonts Settings	
-		
-	## Site Header	
-	
+		- Fonts Settings
+
+	## Site Header
+
 		- Navigation Menu
 			-- Nav Main
 			-- Nav Header
@@ -27,16 +18,16 @@
 			-- Nav Items
 			-- Nav Dropdown
 
-	
+
 	## Widgets
 	- 1
 	- 2
-	
+
 	## Responsive
 	- Min Width : 992px & Max Width 1200px
-	
+
 	- Min Width : 992px
-	
+
 		## Navigation Menu
 		- Nav Main
 		- Nav Header
@@ -44,13 +35,13 @@
 		- Nav Switch
 		- Nav Items
 		- Nav Dropdown
-	
-	* Responsive		
+
+	* Responsive
 		- min-width: 1200
 		- min-width: 992
 		- min-width: 768
 		- max-width: 1200
-		- min-width: 992 to max-width: 1199		
+		- min-width: 992 to max-width: 1199
 		- max-width: 991
 		- min-width: 768 to max-width: 991
 		- max-width: 767
@@ -273,8 +264,8 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 }
 
 /* - SlidePanel */
-#slidepanel { 
-	display: block; 
+#slidepanel {
+	display: block;
 }
 #closeit,
 #toggle,
@@ -300,7 +291,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	height: auto;
 	padding: 0;
 }
-.navbar > .container .navbar-brand, 
+.navbar > .container .navbar-brand,
 .navbar > .container-fluid .navbar-brand {
 	margin-left: 0;
 }
@@ -316,8 +307,8 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	white-space: normal;
 }
 
-.ownavigation .navbar-nav > .active > a, 
-.ownavigation .navbar-nav > .active > a:focus, 
+.ownavigation .navbar-nav > .active > a,
+.ownavigation .navbar-nav > .active > a:focus,
 .ownavigation .navbar-nav > .active > a:hover,
 .ownavigation .navbar-nav > li:hover > a,
 .ownavigation .navbar-nav > li a:hover,
@@ -354,7 +345,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 /*----------------------------------------------------
 
 	* Responsive
-	
+
 ------------------------------------------------------*/
 
 /* - min-width: 1200 */
@@ -369,7 +360,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	.desktop-hide {
 		display: none;
 	}
-	
+
 	/* ## Navigation Menu */
 	.nav_trans {
 		background: transparent;
@@ -379,7 +370,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	.ownavigation .ddl-switch {
 		display: none !important;
 	}
-	
+
 	/* - Nav Items */
 	.ownavigation .navbar-nav > li {
 		margin: 0 10px;
@@ -393,15 +384,15 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 		padding: 5px 10px;
 		position: relative;
 	}
-	.ownavigation .navbar-nav > .active > a, 
-	.ownavigation .navbar-nav > .active > a:focus, 
+	.ownavigation .navbar-nav > .active > a,
+	.ownavigation .navbar-nav > .active > a:focus,
 	.ownavigation .navbar-nav > .active > a:hover,
 	.ownavigation .navbar-nav > li:hover > a,
 	.ownavigation .navbar-nav > li a:hover {
 		background-color: transparent;
 		color: #00bdd3;
 	}
-	
+
 	/* - Nav Dropdown */
 	.ownavigation .navbar-collapse > ul > li > .dropdown-menu {
 		top: 100%;
@@ -472,11 +463,11 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 		box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
 	}
 	.ownavigation ul > li > .dropdown-menu {
-		left: 0; 
+		left: 0;
 	}
 	.ownavigation .navbar-collapse > ul > li:last-child > .dropdown-menu,
 	.ownavigation .navbar-collapse > ul > li:nth-last-child(2) > .dropdown-menu {
-		right: 0; 
+		right: 0;
 	}
 	.ownavigation ul > li > .dropdown-menu,
 	.ownavigation ul > li .dropdown-menu ul,
@@ -549,7 +540,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	.ownavigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul {
 		left: auto;
 	}
-	
+
 	/* - Mega Dropdown Menu */
 	.ownavigation .navbar-nav > li > .dropdown-menu.mega-menu li:first-child,
 	.ownavigation .mega-dropdown .dropdown-menu.mega-menu > li {
@@ -585,16 +576,16 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 
 /* - min-width: 768 */
 @media (min-width: 768px) {
-	
+
 }
 
 /* - max-width: 1200px */
 @media (max-width: 1200px) {
-	
+
 }
 
 /* - Min Width : 992px & Max Width 1200px */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {	
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
 	.ownavigation .navbar-nav > li {
 		margin-left: 9px;
 		margin-right: 9px;
@@ -604,7 +595,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 /* - max-width: 991 */
 @media (max-width: 991px) {
 	/* - SlidePanel */
-	#slidepanel { 
+	#slidepanel {
 		display: none;
 		border-bottom: 1px solid #fff;
 	}
@@ -619,7 +610,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 		right: 110px;
 		text-align: center;
 		top: 14px;
-	}	
+	}
 	#slideit,
 	#closeit {
 		color: #00d2eb;
@@ -632,7 +623,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	#closeit:hover {
 		color: #4c4c4c;
 	}
-	
+
 	.mobile-hide {
 		display: none;
 	}
@@ -649,8 +640,8 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	.ownavigation .navbar-header .navbar-brand {
 		padding-left: 0;
 		margin-left: 0;
-	}	
-	
+	}
+
 	/* - Nav Items */
 	.ownavigation .navbar-nav {
 		border-top: 1px solid #4c4c4c;
@@ -669,7 +660,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 		-moz-transition: all 1s ease 0s;
 		-o-transition: all 1s ease 0s;
 		transition: all 1s ease 0s;
-	}	
+	}
 	.ownavigation .navbar-nav > li.active a {
 		color: #00d2eb;
 	}
@@ -677,7 +668,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	.ownavigation .navbar-nav  li  a:hover {
 		color: #00d2eb;
 	}
-	
+
 	/* - Nav Toggle */
 	.ownavigation .navbar-header {
 		float: none;
@@ -689,21 +680,21 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 		margin: 40px 0 40px;
 		padding: 6px 5px;
 	}
-	.ownavigation .navbar-toggle .icon-bar { 
-		background-color: #fff; 
-	}	
+	.ownavigation .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
 	.ownavigation .navbar-collapse {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.ownavigation .navbar-collapse.collapse { 
-		display: none !important; 
+	.ownavigation .navbar-collapse.collapse {
+		display: none !important;
 	}
-	.ownavigation .collapse.in{ 
-		display:block !important; 
+	.ownavigation .collapse.in{
+		display:block !important;
 		overflow-Y: auto !important;
-	}	
-	
+	}
+
 	/* - Nav Switch */
 	.ownavigation .ddl-switch {
 		background-color: #00d2eb;
@@ -775,4 +766,11 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	#closeit {
 		right: -65px;
 	}
+}
+
+/**************************************************/
+/******************ESTILOS*PROPIOS*****************/
+/**************************************************/
+.bg-f1f1f1 {
+    background-color: #f1f1f1 !important;
 }
